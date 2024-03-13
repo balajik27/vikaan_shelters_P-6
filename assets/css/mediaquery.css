@@ -17,7 +17,28 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-   
+   #first_img_section .item img{
+       height: 400px;
+       object-fit: cover;
+   }
+   #first_img_section .item h1{
+        font-size: 3rem;
+    }
+    #first_img_section .item h5{
+        font-size: 1.2rem;
+    }
+    #first_img_section .slide_inside_right_content{
+        top: 50%;
+        left: 50%;
+        transform: translate(-20% , -50%);
+        color: #fff;
+    }
+    #first_img_section .slide_inside_left_content{
+        top: 50%;
+        left: 50%;
+        transform: translate(-80% , -50%);
+        color: #fff;
+    }
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -27,11 +48,45 @@
 
 /* /* ---- iphone 13pro max ---------- */
 @media only screen and (max-device-width: 430px) {
+    #first_img_section .item h1{
+        font-size: 2.9rem;
+    }
+    #first_img_section .item h5{
+        font-size: 1.1rem;
+    }
 }
 
 /* /* ---- iphone XR max ---------- */
 @media only screen and (max-device-width: 414px) {
-    
+    #first_img_section .item img{
+        height: 370px;
+    }
+    #first_img_section .item h1{
+        font-size: 2.8rem;
+    }
+   
+    #first_img_section .slide_inside_right_content{
+        top: 50%;
+        left: 50%;
+        transform: translate(-80% , -50%);
+        color: #fff;
+    }
+    #first_img_section .slide_inside_left_content{
+        top: 50%;
+        left: 50%;
+        transform: translate(-80% , -50%);
+        color: #fff;
+    }
+
+    /* ------------------------------------------ */
+    #services .services_img{
+        width: 100%
+    }
+    #services .service_box_content {
+      
+        left: 29%;
+      
+    }
 }
 
 /* pixel 5  ----------- */
