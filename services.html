@@ -55,6 +55,51 @@
 </head>
 
 <body>
+  <header>
+    <div class="container ">
+      <div class="d-flex justify-content-between ">
+        <div class="img_box"><img src="./assets/images/header-footer/vikaan_logo.png" alt=""></div>
+        <div class="nav_links d-flex align-items-center">
+
+          <ul class="d-md-flex align-items-center justify-content-between gap-5 d-none">
+            <li class="d-flex align-items-center justify-content-between" ><a href="index.html" class="page_link">HOME</a></li>
+            <li class="d-flex align-items-center justify-content-between" ><a href="aboutus.html" class="page_link">ABOUT US</a></li>
+            <li class="d-flex align-items-center justify-content-between" ><a href="services.html" class="page_link active">SERVICES</a></li>
+            <li class="d-flex align-items-center justify-content-between position-relative projects_link" >
+              <a href="projects.html" class="page_link">PROJECTS</a>
+              <ul class="projects_list" style="z-index: 999999 !important;">
+                <li class="ps-3 py-2"><a href="ongoing_projects.html">Ongoing projects</a> </li>
+                <li class="ps-3 py-2"><a href="completed_projects.html">Completed projects</a> </li>
+                <li class="ps-3 py-2"><a href="contract_works.html">Contract works</a></li>
+              </ul>
+            </li>
+            <li class="d-flex align-items-center justify-content-between" ><a href="gallery.html" class="page_link">GALLERY</a></li>
+            <li class="d-flex align-items-center justify-content-between" ><a href="contactus.html" class="page_link">CONTACT US</a></li>
+          </ul>
+          
+          <img src="./assets/images/header-footer/menu_img.png" class="d-md-none d-flex menu_nav_list" height="50px" alt="">
+          
+          <div id="menu_nav_items_list" class="position-absolute menu_nav_list_items py-5 px-4 d-md-none" style="display: none;">
+            <ul class="menu_nav_list_items_ul">
+              <li> <a class="text-white" href="index.html">HOME</a></li>
+              <li><a href="aboutus.html" class="text-white">ABOUT US</a></li>
+              <li><a href="services.html" class="main_font_color">SERVICES</a> </li>
+              <li><a href="projects.html" class="text-white">PROJECTS</a></li>
+              <ul class="ps-4">
+                <li style="list-style: disc;"><a href="ongoing_projects.html" class="text-white">ONGOING PROJECTS</a></li>
+                <li style="list-style: disc;"><a href="completed_projects.html" class="text-white">COMPLETED PROJECTS</a></li>
+                <li style="list-style: disc;"><a href="contract_works.html" class="text-white">CONTRACT WORKS</a></li>
+              </ul>
+              
+              <li><a href="gallery.html" class="text-white">GALLERY</a></li>
+              <li><a href="contactus.html" class="text-white">CONTACT US</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </header>
 <section class="bg_top1 py-2">
 <div class="container"> 
 <div class="row align-items-center py-2">
@@ -64,7 +109,7 @@
         </h5>
     </div>
    <div class="col-lg-6 py-2 d-flex flex-column justify-content-center align-items-lg-end align-items-center">
-    <h6 class="px-5">Home<span class="home_slash ms-1"><a class="mb-0 ms-3 text-decoration-none  d-inline-block">Services</a></span></h6>
+    <h6 class="px-5"><a href="#" class="mb-0 ms-3 text-decoration-none text-black d-inline-block">Home</a><span class="home_slash ms-1"><a class="mb-0 ms-3 text-decoration-none d-inline-block main_font_color">Services</a></span></h6>
     </div>
    </div>
     </div>
@@ -75,18 +120,18 @@
             <div class="col-lg-3 col-11 mt-5">
                 <div class="col-12">
                     <ul class="list-unstyled">
-                    <li  data-aos="fade-up" class="py-2 hover_li"><a href="#" class="text-decoration-none hover_a active_txt">ALL SERVICES<span class="d-inline-block float-end active_txt"><i class="fa-solid fa-angle-right"></i></span></a></li>
+                    <li class="py-2 hover_li"><a href="#" class="text-decoration-none hover_a active_txt">ALL SERVICES<span class="d-inline-block float-end active_txt"><i class="fa-solid fa-angle-right"></i></span></a></li>
                     <div class="divider"></div>
-                    <li  data-aos="fade-down" class="py-2 hover_li"><a href="#" class="text-decoration-none hover_a">Joint Venture Development<span class="d-inline-block float-end"><i class="fa-solid fa-angle-right"></i></span></a></li>
+                    <li class="py-2 hover_li"><a href="#" class="text-decoration-none hover_a">Joint Venture Development<span class="d-inline-block float-end"><i class="fa-solid fa-angle-right"></i></span></a></li>
                     <div class="divider"></div>
 
-                    <li  data-aos="fade-up" class="py-2 hover_li"><a href="#" class="text-decoration-none hover_a">Flat Promotion<span class="d-inline-block float-end"><i class="fa-solid fa-angle-right"></i></span></a></li>
+                    <li class="py-2 hover_li"><a href="#" class="text-decoration-none hover_a">Flat Promotion<span class="d-inline-block float-end"><i class="fa-solid fa-angle-right"></i></span></a></li>
                     <div class="divider my-2"></div>
 
-                    <li  data-aos="fade-down" class="py-2 hover_li"><a href="#" class="text-decoration-none hover_a">Contract Works<span class="d-inline-block float-end"><i class="fa-solid fa-angle-right"></i></span></a></li>
+                    <li class="py-2 hover_li"><a href="#" class="text-decoration-none hover_a">Contract Works<span class="d-inline-block float-end"><i class="fa-solid fa-angle-right"></i></span></a></li>
                     <div class="divider"></div>
 
-                    <li  data-aos="fade-up" class="py-2 hover_li"><a href="#" class="text-decoration-none hover_a">Flat Maintenance<span class="d-inline-block float-end"><i class="fa-solid fa-angle-right"></i></span></a></li>
+                    <li class="py-2 hover_li"><a href="#" class="text-decoration-none hover_a">Flat Maintenance<span class="d-inline-block float-end"><i class="fa-solid fa-angle-right"></i></span></a></li>
                     <div class="divider"></div>
 
                 </ul>
@@ -170,7 +215,46 @@
         </div>
     </div>
 </section>
-
+<section id="footer" class="footer overflow-hidden bg-dark">
+  <div class="container">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 my-5">
+        <div class="col-lg-4 col-12 mb-3">
+          <h2 class="text-light fs-6 mb-0">ABOUT US</h2>
+          <div><img src="./assets/images/header-footer/vikaan_logo.png" height="110px" alt="" ></div>
+          <p class="textcolor lh-base fw-normal text-justify">You have reached the right place to fulfil your dreams. VIKAAN Shelters was started by a team of Three talented entrepreneurs with great dedication and a common goal of delivering quality residences to our blue-chip clients.</p>
+        </div>
+        <div class="col-lg-1 d-lg-block d-none"></div>
+    
+        <div class="col-lg-3 col-12 mb-3 px-lg-5 px-3">
+          <h5 class="fs-6 mb-4 textcolor">NAVIGATION</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 pb-2 hovercolor"><span><i class="fa-solid fa-chevron-right pe-2"></i></span>Home</a></li>
+            <li class="nav-item mb-2"><a href="aboutus.html" class="nav-link p-0 pb-2 hovercolor"><span><i class="fa-solid fa-chevron-right pe-2"></i></span>About us</a></li>
+            <li class="nav-item mb-2"><a href="services.html" class="nav-link p-0 pb-2 main_font_color hovercolor"><span><i class="fa-solid fa-chevron-right pe-2"></i></span>Services</a></li>
+            <li class="nav-item mb-2"><a href="projects.html" class="nav-link p-0 pb-2 hovercolor"><span><i class="fa-solid fa-chevron-right pe-2"></i></span>Projects</a></li>
+            <li class="nav-item mb-2"><a href="gallery.html" class="nav-link p-0 pb-2 hovercolor"><span><i class="fa-solid fa-chevron-right pe-2"></i></span>Gallery</a></li>
+            <li class="nav-item mb-2"><a href="contactus.html" class="nav-link p-0 pb-2 hovercolor"><span><i class="fa-solid fa-chevron-right pe-2"></i></span>Contact us</a></li>
+          </ul>
+        </div>
+    
+     
+    
+        <div class="col-lg-4 col-12 mb-3 pe-5">
+          <h5 class="textcolor fs-6 mb-4">ADDRESS</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light"><strong>Flat No:</strong><span class="hovercolor"> S4, Sai Siddhi, Second Floor,</span></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light pb-2 pe-5"><strong>Plot No:</strong><span class="hovercolor"> 2, Thiruvin Nagar, Kovilambakkam,(Pallavaram – Thoraipakkam Radial Road) <br>Chennai – 600 117.</span></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light pb-2"><strong>Email:</strong><span class="hovercolor"> info@vikaanshelters.com</span></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light"><strong>Office:</strong><span class="hovercolor">  044 – 22 477 477</span></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light pb-2"><strong>Mobile:</strong><span class="hovercolor"> +91 – 98408 18806<br>
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp +91 – 99400 15473 <br>
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp +91 – 98411 42990</span></a></li>
+         
+          </ul>
+        </div>
+      </footer>
+    </div>
+</section>
  <div class="scroll_container">
   <div class="scroll_rotate"></div>
     <div class="scroll_arrow"><i class="fa-solid fa-angle-up"></i></div>
@@ -187,6 +271,19 @@
 <script src="assets/lightbox2-dev/dist/js/lightbox.js"></script>
 <!-- --------------- aos script ------------------- -->
 <script src="assets/aos/js/aos.js"></script>
+<script>
+  $('.menu_nav_list').on('click' , function(){
+    let menu_nav_items_list = document.getElementById('menu_nav_items_list');
+    menu_nav_items_list.classList.toggle('d-flex')
+  })
+  $(document).on('click', function(event) {
+      if (!$(event.target).closest('#menu_nav_items_list').length && !$(event.target).closest('.menu_nav_list').length) {
+        let menu_nav_items_list = document.getElementById('menu_nav_items_list');
+        menu_nav_items_list.classList.remove('d-flex');
+      }
+    })
+
+</script>
 <!-- scroll sceipt -->
 <script>
   document.addEventListener("DOMContentLoaded", function() {

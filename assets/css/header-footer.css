@@ -72,7 +72,7 @@ header .projects_list li:hover{
    background-color: #d54900;
 }
 header .projects_list li:hover a{
-   color: #fff ;
+   color: #fff !important;
 }
 header .menu_nav_list_items{
     left: 8px;
@@ -80,6 +80,7 @@ header .menu_nav_list_items{
     right: 8px;
     color: #fff;
     background: #000;
+    z-index: 99;
 }
 header .menu_nav_list_items_ul li{
     height: 38px;
@@ -88,7 +89,9 @@ header .menu_nav_list_items_ul li{
 
 
 
-
+.footer{
+    margin-top: 30px;
+}
 
 .footer.text-justify{
     font-family: sans-serif;
